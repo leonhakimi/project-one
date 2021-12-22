@@ -6,22 +6,28 @@ Expense reimbursement management system with two user roles of manager and emplo
 
 ## Technologies Used
 
-* Java 8
+* Java 8, Javalin backend
 * HTML, JavaScript, CSS front end
 * Selenium and Cucumber for e2e testing
 * JUnit
 * AWS RDS 
+* JBCrypt
 
 ## Features
-
-List of features ready and TODOs for future development
-* Awesome feature 1
-* Awesome feature 2
-* Awesome feature 3
+* Users can sign up as either manager or employee
+* Users can login
+* Users can logout
+* Employees can view all past reimbursement requests that they requested
+* Employees can submit new reimbursement requests
+* Employees can upload receipt with request
+* Managers can view all reimbursement requests
+* Mangagers can update status of requests to either PENDING or DENIED
+* Managers can filter requests by status
 
 To-do list:
-* Wow improvement to be done 1
-* Wow improvement to be done 2
+* Deploy on ec2 instance
+* Angular frontend
+* email verification
 
 ## Getting Started
    
@@ -37,10 +43,6 @@ To-do list:
 ## Usage
 
 > Here, you instruct other people on how to use your project after they’ve installed it. This would also be a good place to include screenshots of your project in action.
-
-## Contributors
-
-> Here list the people who have contributed to this project. (ignore this section, if its a solo project)
 
 ## License
 
