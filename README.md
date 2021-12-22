@@ -37,7 +37,7 @@ To-do list:
 > Be sure to include BOTH Windows and Unix command  
 > Be sure to mention if the commands only work on a specific platform (eg. AWS, GCP)
 
-- `$git clone https://github.com/leonhakimi/project-one.git`
+`$git clone https://github.com/leonhakimi/project-one.git`
 -  
 
 ## Usage
